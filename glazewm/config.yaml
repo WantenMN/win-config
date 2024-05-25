@@ -1,6 +1,6 @@
 general:
   # Whether to automatically focus windows underneath the cursor.
-  focus_follows_cursor: true
+  focus_follows_cursor: false
 
   # Whether to jump the cursor between windows focused by the WM.
   cursor_follows_focus: false
@@ -113,7 +113,7 @@ window_rules:
   - command: "set floating"
     match_class_name: "SunAwtDialog"
   - command: "set floating"
-    match_title: "/.*Spy for AHKv2.*|Sign In - Google Accounts|KeePass/"
+    match_title: "/.*Spy for AHKv2.*|Sign.+Google [Aa]ccounts|KeePass/"
 
 binding_modes:
   - name: "resize"
