@@ -113,7 +113,7 @@ window_rules:
   - command: "set floating"
     match_class_name: "SunAwtDialog"
   - command: "set floating"
-    match_title: "/.*Spy for AHKv2.*|Sign.+Google [Aa]ccounts|KeePass/"
+    match_title: "/.*Spy for AHKv2.*|Sign.+Google [Aa]ccounts|KeePass|Friends List|Steam Settings/"
 
 binding_modes:
   - name: "resize"
