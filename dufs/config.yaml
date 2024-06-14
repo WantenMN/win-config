@@ -1,4 +1,4 @@
-serve-path: 'C:\Users\Wanten\Data\webdav'
+serve-path: 'C:\Users\Wanten\data\webdav'
 bind: 0.0.0.0
 port: 12121
 auth:
