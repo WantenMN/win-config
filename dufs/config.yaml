@@ -1,7 +1,0 @@
-serve-path: 'C:\Users\Wanten\data\webdav'
-bind: 0.0.0.0
-port: 12121
-auth:
-  - wanten:@/:rw
-allow-all: true
-enable-cors: true

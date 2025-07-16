@@ -1,13 +1,13 @@
 #SingleInstance Force
 
 ; Volume control
-^!=:: ; Ctrl + Alt + =
+^#=:: ; Ctrl + Win + =
 {
   AdjustSoundSetVolume("+2")
   return
 }
 
-^!-:: ; Ctrl + Alt + -
+^#-:: ; Ctrl + Win + -
 {
   AdjustSoundSetVolume("-2")
   return

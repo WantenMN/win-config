@@ -1,1 +1,0 @@
-Run("dufs -c config.yaml", , "Hide")
